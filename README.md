@@ -28,7 +28,7 @@ Wave send (Contract WaveSend.sol) is a revolutionary digital wallet that enables
 
 - *Solidity*: Programming language for smart contracts.
 - *Base188 Encoding*: A custom, optimized encoding system that compresses transaction data into a compact format suitable for SMS transmission (typically limited to 160 characters).
-- *Rede Scroll*: It offers scalability, low cost, and high transaction speed.
+- *Scroll Network*: It offers scalability, low cost, and high transaction speed.
 
 ## Smart Contract Features
 

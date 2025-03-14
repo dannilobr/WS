@@ -55,7 +55,7 @@ Wave send (Contract WaveSend.sol) is a revolutionary digital wallet that enables
 - **Scalability**: Handles a high number of transactions.
 - **Low Cost**: Lowered transaction expenses.
 
-## Roadmap de Desenvolvimento
+## Development Roadmap
 
 ### Phase 1: Deploy
 - Full deployment on Scroll Sepolia
@@ -82,9 +82,9 @@ Wave send (Contract WaveSend.sol) is a revolutionary digital wallet that enables
 4. Push to the branch (git push origin feature/NewFunction)
 5. Open a Pull Request
 
-## Contato
+## Contact
 
-Link do Projeto: [https://github.com/juancolchete/waveSend](https://github.com/juancolchete/waveSend)
+Project Link: [https://github.com/juancolchete/waveSend](https://github.com/juancolchete/waveSend)
 
 ## Licence
 

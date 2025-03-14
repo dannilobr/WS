@@ -29,7 +29,7 @@ Wave send (Contract WaveSend.sol) is a revolutionary digital wallet that enables
 - *Solidity*: Programming language for smart contracts.
 - *Base188 Encoding*: A custom, optimized encoding system that compresses transaction data into a compact format suitable for SMS transmission (typically limited to 160 characters).
 - *Scroll Network*: It offers scalability, low cost, and high transaction speed.
-- *Twilio*: Webhook (A webhook is the automated system that triggers the sending of the message).
+- *Twilio*: Webhook (SMS API) - A webhook is the automated system that triggers the sending of the message.
 - *NextJS*: Applied nn the webapp.
 
 ## Smart Contract Featureo

@@ -71,7 +71,7 @@ Wave send (Contract WaveSend.sol) is a revolutionary digital wallet that enables
 ### Fase 4: Descentralized Identity
 - Integration with decentralized identity systems for enhanced security
 
-## Como Contribuir
+## How to Contribute
 
 1. Fork the repository
 2. Create a branch for your feature. (git checkout -b feature/NewFunction)
@@ -84,7 +84,5 @@ Wave send (Contract WaveSend.sol) is a revolutionary digital wallet that enables
 Link do Projeto: [https://github.com/juancolchete/waveSend](https://github.com/juancolchete/waveSend)
 
 ## Licence
-
-That translates to:
 
 This project is licensed under the MIT License.

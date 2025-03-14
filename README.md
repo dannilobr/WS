@@ -50,10 +50,10 @@ Wave send (Contract WaveSend.sol) is a revolutionary digital wallet that enables
 
 ## Advantages of the Scroll Network
 
-- *Ethereum Compatibility*: Simplifies connection with the Ethereum network.
-- **High Speed  **: Quick transaction validations.
-- *Scalability*: Handles a high number of transactions.
-- *Low Cost*: Lowered transaction expenses.
+- **Ethereum Compatibility**: Simplifies connection with the Ethereum network.
+- **High Speed**: Quick transaction validations.
+- **Scalability**: Handles a high number of transactions.
+- **Low Cost**: Lowered transaction expenses.
 
 ## Roadmap de Desenvolvimento
 

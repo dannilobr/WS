@@ -57,26 +57,22 @@ Wave send (Contract WaveSend.sol) is a revolutionary digital wallet that enables
 
 ## Roadmap de Desenvolvimento
 
-### Fase 1: Deploy
+### Phase 1: Deploy
 - Full deployment on Scroll Sepolia
 - Support for ERC-20 tokens
-- Implement the ability to use ERC-20 tokens to pay for LoRaWAN services, such as data transmission or gateway access.
 
-### Fase 2: Expasion
+### Phase 2: Expasion
 - Expansion to additional blockchain networks
 - Support for NFTs
-- Adapt the LoRaWAN integration to work on other blockchain networks, such as Polygon or Arbitrum, to increase accessibility.
-- Test interoperability between blockchains and LoRaWAN gateways.
 
-### Fase 3: Partneship
+### Phase 3: Partneship
 - Partnerships with humanitarian organizations for implementation in crisis areas.
-- Use the blockchain to register and verify humanitarian aid distribution tracked by lorawan sensors.
-- Use portable and low-power LoRaWAN gateways to facilitate deployment in remote areas.
 
-### Fase 4: Descentralized Identity
-- Integration with decentralized identity systems for enhanced security
-- Integrate decentralized identity (DID) systems to authenticate and authorize LoRaWAN devices and gateways.
-- Implement end-to-end encryption to protect data transmitted by LoRaWAN devices.
+### Phase 4: LoRa Integration
+- Implementation of LoRa technology for long-range communication
+- Development of LoRa-compatible hardware for areas without cellular coverage
+- Hybrid SMS/LoRa communication protocols for maximum resilience
+- Field testing in remote regions with limited infrastructure
   
 ## How to Contribute
 

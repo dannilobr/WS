@@ -5,6 +5,29 @@
 
 Wave send (Contract WaveSend.sol) is a revolutionary digital wallet that enables blockchain transactions via SMS, making it ideal for areas with unreliable infrastructure, crisis situations, and disasters. Our solution ensures financial access even when the internet is unavailable. Developed on the Scroll network, the project offers a transparent, efficient, and automated platform for those who need to perform offline transactions.
 
+## Tech Chart
+
+```mermaid
+flowchart TD
+    User[("👤 User")] -- Accesses --> App["📱 WaveSend App"]
+    Frontend["🖌 Frontend React"] -- Send --> SMS["🔷 SMS"]
+    SMS -- Send signed Txn --> Twilio["🔧 Twilio API"]
+    Twilio -- Webhook --> Backend["🔧 Backend\nNode.js"]
+    Backend -- Callback --> Twilio
+    Backend -- Delivers to --> Blockchain["Blockchain"]
+    Twilio -- Return Txn Data --> SMS
+    App -- Interface --> Frontend
+    style User fill:#f9f9f9,stroke:#333,stroke-width:2px
+    style App fill:#e6f7ff,stroke:#0099cc,stroke-width:2px
+    style Frontend fill:#ebdef0,stroke:#8e44ad,stroke-width:2px
+    style SMS fill:#3498db,stroke:#2980b9,stroke-width:2px
+    style Twilio fill:#e74c3c,stroke:#c0392b,stroke-width:2px
+    style Backend fill:#d5f5e3,stroke:#1abc9c,stroke-width:2px
+    style Blockchain fill:#f9f9f9,stroke:#333,stroke-width:2px
+
+
+```
+
 ## Main Features
 
 ### For Consumers

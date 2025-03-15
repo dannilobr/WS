@@ -17,7 +17,7 @@ flowchart TD
         Backend["🔧 Backend Node.js"]
         Blockchain["Blockchain"]
   end
-    User -- Acess --> Frontend
+    User -- Access --> Frontend
     Frontend -- Sign txn --> SMS
     SMS -- Send signed Txn --> Twilio
     Twilio -- Webhook --> Backend

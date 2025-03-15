@@ -9,17 +9,26 @@ Wave send (Contract WaveSend.sol) is a revolutionary digital wallet that enables
 
 ```mermaid
 flowchart TD
-    User[("👤 User")] -- Accesses --> App["📱 WaveSend App"]
-    Frontend["🖌 Frontend React"] -- Send --> SMS["🔷 SMS"]
-    SMS -- Send signed Txn --> Twilio["🔧 Twilio API"]
-    Twilio -- Webhook --> Backend["🔧 Backend\nNode.js"]
+ subgraph subGraph0["📱 WaveSend App"]
+        Frontend["🖌 Frontend React"]
+        User[("👤 User")]
+        SMS["SMS"]
+        Twilio["🔧 Twilio API"]
+        Backend["🔧 Backend Node.js"]
+        Blockchain["Blockchain"]
+  end
+    User -- Acess --> Frontend
+    Frontend -- Sign txn --> SMS
+    SMS -- Send signed Txn --> Twilio
+    Twilio -- Webhook --> Backend
     Backend -- Callback --> Twilio
-    Backend -- Delivers to --> Blockchain["Blockchain"]
+    Backend -- Delivers to --> Blockchain
+    Blockchain -- Get Data --> Backend
     Twilio -- Return Txn Data --> SMS
-    App -- Interface --> Frontend
-    style User fill:#f9f9f9,stroke:#333,stroke-width:2px
-    style App fill:#e6f7ff,stroke:#0099cc,stroke-width:2px
+
+    Blockchain@{ shape: cyl}
     style Frontend fill:#ebdef0,stroke:#8e44ad,stroke-width:2px
+    style User fill:#f9f9f9,stroke:#333,stroke-width:2px
     style SMS fill:#3498db,stroke:#2980b9,stroke-width:2px
     style Twilio fill:#e74c3c,stroke:#c0392b,stroke-width:2px
     style Backend fill:#d5f5e3,stroke:#1abc9c,stroke-width:2px
